@@ -1,0 +1,44 @@
+body {
+
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left {
+    background-color: #C8FC98;
+    width: 200px;
+    float: left;
+    line-height: 1.5
+}
+
+.right {
+    background-color: white;
+    line-height: 1.5
+}
+header {
+    background-color: #EAEAEA;
+    border-bottom: 10px solid #EAEAEA;
+    vertical-align: top;
+}
+footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    
+}
+A {
+    color: #FDE95E; /* Цвет ссылок */
+}
+
+    A:visited {
+        color: #FDE95E; /* Цвет посещенных ссылок */
+    }
+
+    A:active {
+        color: #FDE95E; /* Цвет активных ссылок */
+    }
